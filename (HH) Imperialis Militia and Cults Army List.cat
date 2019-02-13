@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="90aa-c2c8-ffb0-496e" name="Imperialis Militia and Cults Army List" book="Crusade Imperialis" revision="88" battleScribeVersion="2.01" authorName="https://github.com/BSData/horus-heresy/graphs/contributors" authorContact="Gitter: @BSData/horus-heresy" authorUrl="http://battlescribedata.appspot.com/#/repo/horus-heresy" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="85" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="90aa-c2c8-ffb0-496e" name="Imperialis Militia and Cults Army List" book="Crusade Imperialis" revision="93" battleScribeVersion="2.01" authorName="https://github.com/BSData/horus-heresy/graphs/contributors" authorContact="Gitter: @BSData/horus-heresy" authorUrl="http://battlescribedata.appspot.com/#/repo/horus-heresy" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="85" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -458,6 +458,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d2d-cc8c-eb21-2468" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="2c0d-17c1-4cc4-26ef" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d8b5-c04a-817f-3c7e" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="80a2-7d5f-396f-352e" name="Armies of Dark Compliance" hidden="false">
@@ -588,6 +597,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b69-8a93-6c14-f6c7" type="min"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="0827-eebe-eec3-6451" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9bcf-e1db-16a8-8f68" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="98db-b4ba-fbcd-3239" name=" Crusade" hidden="false">
@@ -691,6 +709,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1966-9e82-e3c5-0c86" type="min"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="e5e0-765a-7e2e-1479" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="995f-3c8e-6690-e0be" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="657a-bc81-4ae3-8a5b" name="Allied Detachment" hidden="false">
@@ -773,6 +800,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="dcc8-f42a-c5d6-eedd" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3873-4bf0-2e6e-51de" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="089f-7e79-bde1-90dd" name=" Zone Mortalis - Attacker" hidden="false">
@@ -837,6 +873,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="3e9b-a4d0-654b-05b6" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1b51-ce52-4d7a-c446" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="7b39-af6b-52e1-b4d7" name=" Zone Mortalis - Defender" hidden="false">
@@ -898,6 +943,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <infoLinks/>
           <modifiers/>
           <constraints/>
+        </categoryLink>
+        <categoryLink id="5ab2-c71d-d8e9-bd6e" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9fcc-124f-4a07-bf97" type="max"/>
+          </constraints>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -962,6 +1016,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <infoLinks/>
           <modifiers/>
           <constraints/>
+        </categoryLink>
+        <categoryLink id="2143-2ae1-d9a7-757d" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fdc6-f699-aeb3-f756" type="max"/>
+          </constraints>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -1037,6 +1100,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <infoLinks/>
           <modifiers/>
           <constraints/>
+        </categoryLink>
+        <categoryLink id="4a25-0801-a466-f152" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="591e-77a0-8c09-b4b5" type="max"/>
+          </constraints>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -1122,6 +1194,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="1b29-d5d5-c67d-ed65" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="13c4-57aa-ad88-303c" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="f715-cdf4-0c5e-213a" name="Optional - Leviathan" hidden="false">
@@ -1148,6 +1229,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <infoLinks/>
           <modifiers/>
           <constraints/>
+        </categoryLink>
+        <categoryLink id="838f-0ceb-8ce0-c78d" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="51b2-ac91-65b5-ce0a" type="max"/>
+          </constraints>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -1213,6 +1303,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20a1-90d6-fb1d-2730" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="b425-0e48-e198-066b" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c25f-1d0e-8826-021c" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -1289,6 +1388,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8127-4547-e39a-62f2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a49-4460-0e7f-abf5" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="ab98-d238-8be6-e805" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b210-4caa-2fae-d5e5" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -1493,7 +1601,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d314-1e56-8598-2f48" name="Auxilia Malcador Heavy Tank" hidden="false" targetId="c564-b56c-977c-64bd" type="selectionEntry">
+    <entryLink id="d314-1e56-8598-2f48" name="Malcador Heavy Tank, Auxilia" hidden="false" targetId="c564-b56c-977c-64bd" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1931,29 +2039,6 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <constraints/>
         </categoryLink>
         <categoryLink id="4478-7615-a975-25d2" name="New CategoryLink" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="9ce8-35cc-0795-6b80" name="Grand Redoubt" hidden="false" targetId="b973-7d7d-754e-b022" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="9ce8-35cc-0795-6b80-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="e8b8-4af5-0d2c-271e" name="New CategoryLink" hidden="false" targetId="8a8c-ed20-7427-ddff" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2457,6 +2542,156 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         </categoryLink>
       </categoryLinks>
     </entryLink>
+    <entryLink id="b7d1-0929-9df6-36cd" name="Carnodon Strike Squadron" hidden="false" targetId="8bbc-b165-3c51-623d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f68e-05a5-0614-842f" name="New CategoryLink" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1618-6505-812c-75d7" name="Vehicle" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5416-f32f-5cc8-8e3c" name="Tank" hidden="false" targetId="e59c-462e-9d9c-66dd" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="69f5-1ce5-530d-8dcc" name="Legio Titanicus Reaver Battle Titan" hidden="false" targetId="1fa3-1f86-94a6-bf48" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="53cd-63c8-53a1-4f5f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1c56-de49-99d1-fd55" name="New CategoryLink" hidden="false" targetId="264d-166e-36c0-77b7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="83eb-f1af-e59a-c25b" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4c47-86d0-fa5f-5960" name="Legio Titanicus Warbringer Nemesis Titan" hidden="false" targetId="ecb3-83b9-4ba7-47a9" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c29e-0078-8b8c-8678" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3b26-8e7f-fba5-f6f7" name="New CategoryLink" hidden="false" targetId="264d-166e-36c0-77b7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="289d-73fb-9dbb-b9cc" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4afe-d77a-18a8-4baa" name="Legio Titanicus Warhound Scout Titan" hidden="false" targetId="b894-adfc-6d3d-fde4" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="977e-5500-d179-a227" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7b77-c06d-cc1e-cc48" name="New CategoryLink" hidden="false" targetId="264d-166e-36c0-77b7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5a5d-5cae-ae3e-f1a0" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2e7f-9e54-b50d-7224" name="Legio Titanicus Warlord Battle Titan" hidden="false" targetId="ab80-0fef-3e93-8e64" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f34e-4fe9-b396-1baa" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8875-60f9-1019-3db5" name="New CategoryLink" hidden="false" targetId="264d-166e-36c0-77b7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="85b3-a762-34a7-741f" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="36c5-d6db-7224-1e47" name="Support Unit" hidden="false" collective="false" type="upgrade">
@@ -2584,9 +2819,17 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1072-a486-548b-2be7" name="Abhuman Helots" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1072-a486-548b-2be7" name="Abhuman Helots" book="HH:CI" page="73" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="8d0f-72d7-9756-f981" name="Abhuman Helots" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>All eligible units and models receive an increase of +1 to their Toughness value but also lower their Initiative value by -1 (to a minimum of 1).</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints>
@@ -2602,7 +2845,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <cost name="pts" costTypeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="93a4-c515-6894-0cda" name="Advanced Weapons" book="" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="93a4-c515-6894-0cda" name="Advanced Weapons" book="HH:CI" page="72" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules>
         <rule id="9066-81bf-e6dd-0afc" name="Advanced Weapons" book="HH5: Tempest" page="188" hidden="false">
@@ -2634,9 +2877,17 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6628-02a8-0a86-1278" name="Alchem-jackers" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="6628-02a8-0a86-1278" name="Alchem-jackers" book="HH:CI" page="72" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="7602-3b1e-cadd-29ce" name="Alchem-jackers" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>All units with this Provenance do not suffer negative modifiers to their Leadership value in the Assault phase and, in addition, if they fail a Morale check owing to casualties in the Shooting phase, they become pinned instead of Falling Back.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints>
@@ -3410,10 +3661,31 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c9ee-665f-aaee-6ece" name="Cult Horde" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="c9ee-665f-aaee-6ece" name="Cult Horde" book="HH:CI" page="73 (FAQ July 18 update)" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
-      <infoLinks/>
+      <rules>
+        <rule id="4e3d-b549-b1f9-29ba" name="Cult Horde" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>All eligible units and models with this Provenance gain Hatred and Stubborn special rules. However, they must always charge an enemy if they are able, and may even charge if they have fired weapons in the Shooting phase which would make them ineligible to do so (counting as making a disordered charge in this case). Affected models and units with this Provenance may only make Snap Shots with their shooting attacks and cannot voluntarily Go to Ground. Grenadier squads may not be taken in an army which uses this Provenance and this Provenance may not be used in conjunction with the Survivors of the Dark Age Provenance.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3712-0b2b-48de-f2ba" name="Hatred" hidden="false" targetId="7c6c-4e25-e4d4-9728" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3314-b4d5-bec4-260f" name="Stubborn" hidden="false" targetId="7be5-30af-1a02-0a89" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers>
         <modifier type="set" field="maxInForce" value="0">
           <repeats/>
@@ -3443,7 +3715,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
     </selectionEntry>
     <selectionEntry id="3e9e-38b2-3633-713a" name="Cyber-augmetics" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="1d63-3437-f1af-0c63" name="Cyber-augmetics" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>All eligible units and models receive an invulnerable save of 6+ (or may improve an existing invulnerable save by +1 to a maximum of 3+). Units and models with this Provenance however must reduce any Run and Sweeping Advance rolls they make by -1. This Provenance may not be chosen in conjunction with the Gene-crafted Provenance</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers>
         <modifier type="set" field="maxInForce" value="0">
@@ -3504,9 +3784,17 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8836-1dde-d860-bd88" name="Feral Warriors" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="8836-1dde-d860-bd88" name="Feral Warriors" book="HH:CI" page="73" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="cf7d-6702-f032-9b62" name="Feral Warriors" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>All eligible units and models receive a +1 bonus to their WS (to a maximum of 4) – Ogryns instead receive +1 Attack. A detachment with this Provenance cannot have more units with the Vehicle type in total than it does those with the Infantry type.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints>
@@ -3554,9 +3842,17 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a77a-bcf8-90fd-d9e5" name="Gene-crafted" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a77a-bcf8-90fd-d9e5" name="Gene-crafted" book="HH:CI" page="72" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="96ed-605e-e457-8aaf" name="Gene-crafted" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>All eligible units and models receive +1 to their Strength and Initiative values (to a maximum of 4, or 6 in the case of an Ogryn’s Strength). Units and models with this Provenance may not benefit from the Feel No Pain special rule from any source (such as Auxilia Medicae Orderlies, etc).</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers>
         <modifier type="set" field="maxInForce" value="0">
@@ -4310,9 +4606,17 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <cost name="pts" costTypeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d18f-6d15-942c-0ac5" name="Survivors of the Dark Age" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d18f-6d15-942c-0ac5" name="Survivors of the Dark Age" book="HH:CI" page="72" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="a6d8-4810-4371-a881" name="Survivors of the Dark Age" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>All eligible units and models receive an increase of +1 to their basic Armour save (5+ becoming 4+ and so on) to a maximum of 3+. However, the detachment’s compulsory Troops choices must be filled by Grenadier squads, and in addition Inducted Levy squads in an army with this Provenance gain the Support Squad special rule and this Provenance itself may not be used in conjunction with the Cult Horde or Tainted Flesh Provenances.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers>
         <modifier type="set" field="maxInForce" value="0">
@@ -4342,9 +4646,17 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <cost name="pts" costTypeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3cc2-fa8b-3467-7e3a" name="Tainted Flesh" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3cc2-fa8b-3467-7e3a" name="Tainted Flesh" book="HH:CI" page="73" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="8819-8c68-872a-5d35" name="Tainted Flesh" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>All eligible units and models receive the Fear special rule and the Feel No Pain (6+) special rule, and their close combat attacks gain the Rending special rule. However, the detachment’s compulsory Troops choices must be filled by Inducted Levy squads, and it may not have more Infantry units, excepting HQ choices of other types, than it has Inducted Levy squads in total. For example, if it has three Inducted Levy squads, it can have a maximum of three additional Infantry squads of other kinds. The only HQ choices the detachment can take are the Force Commander and Rogue Psyker entries.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers>
         <modifier type="set" field="maxInForce" value="0">
@@ -4389,7 +4701,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="6d02-c86d-26a3-1f2c" hidden="false" targetId="d32a-558a-5735-ac97" type="selectionEntryGroup">
+        <entryLink id="6d02-c86d-26a3-1f2c" name="Provenances of War" hidden="false" targetId="d32a-558a-5735-ac97" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4402,9 +4714,17 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="96b4-3842-f492-d7cb" name="Warrior Elite" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="96b4-3842-f492-d7cb" name="Warrior Elite" book="HH:CI" page="72" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="61d4-6a21-0cf7-4820" name="Warrior Elite" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>All eligible units and models receive +1 to their Leadership value (to a maximum of 9). Militia Levy squads in an army with this Provenance gain the Support Squad special rule.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints>
@@ -6287,7 +6607,7 @@ D3     Mutation
             <characteristic name="Side" characteristicTypeId="5369646523232344415441232323" value="13"/>
             <characteristic name="Rear" characteristicTypeId="5265617223232344415441232323" value="12"/>
             <characteristic name="HP" characteristicTypeId="485023232344415441232323" value="6"/>
-            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Super-heavy, Fast"/>
+            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Vehicle (Tank), Fast"/>
           </characteristics>
         </profile>
       </profiles>
@@ -7561,7 +7881,9 @@ D3     Mutation
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -10590,15 +10912,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d18f-6d15-942c-0ac5" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3ef0-bf2a-3454-2e56" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c6ee-1bdb-803c-9609" type="max"/>
@@ -10607,19 +10921,35 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="57c1-e65e-89f7-e28e" hidden="false" targetId="11ce-7e74-239c-fee7" type="selectionEntry">
+            <entryLink id="57c1-e65e-89f7-e28e" name="Rhino Armoured Carrier" hidden="false" targetId="11ce-7e74-239c-fee7" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d18f-6d15-942c-0ac5" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="4942-bd60-e64e-5749" hidden="false" targetId="3738-7adf-ea3d-8a7e" type="selectionEntry">
+            <entryLink id="4942-bd60-e64e-5749" name="Land Raider Proteus" hidden="false" targetId="3738-7adf-ea3d-8a7e" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d18f-6d15-942c-0ac5" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
               <categoryLinks/>
             </entryLink>
@@ -12545,7 +12875,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="242c-3d61-da20-502e" hidden="false" targetId="46fa-9f49-315a-2044" type="selectionEntry">
+            <entryLink id="242c-3d61-da20-502e" name="Gorgon Heavy Transporter, Auxilia" hidden="false" targetId="46fa-9f49-315a-2044" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -12567,7 +12897,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="0e5d-b516-527b-d68e" hidden="false" targetId="2f44-0ed6-d014-be2f" type="selectionEntry">
+            <entryLink id="0e5d-b516-527b-d68e" name="Arvus Lighter, Auxilia" hidden="false" targetId="2f44-0ed6-d014-be2f" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -12615,7 +12945,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="4135-dc82-5700-c587" hidden="false" targetId="3738-7adf-ea3d-8a7e" type="selectionEntry">
+            <entryLink id="4135-dc82-5700-c587" name="Land Raider Proteus" hidden="false" targetId="3738-7adf-ea3d-8a7e" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -12677,7 +13007,64 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="f299-898a-b637-0aa2" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1dbf-2c4c-f4dd-54ca" type="greaterThan"/>
+                        <condition field="selections" scope="f299-898a-b637-0aa2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a35f-904e-a79f-eecc" type="greaterThan"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e924-f45e-dedd-b358" name="Terrax Pattern Termite Assault Drill" hidden="false" targetId="1b44-8c50-86ae-9a67" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d18f-6d15-942c-0ac5" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="f299-898a-b637-0aa2" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1dbf-2c4c-f4dd-54ca" type="greaterThan"/>
+                        <condition field="selections" scope="f299-898a-b637-0aa2" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a35f-904e-a79f-eecc" type="greaterThan"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="f299-898a-b637-0aa2" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1dbf-2c4c-f4dd-54ca" type="greaterThan"/>
+                        <condition field="selections" scope="f299-898a-b637-0aa2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a35f-904e-a79f-eecc" type="greaterThan"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="f299-898a-b637-0aa2" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1dbf-2c4c-f4dd-54ca" type="greaterThan"/>
+                        <condition field="selections" scope="f299-898a-b637-0aa2" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a35f-904e-a79f-eecc" type="greaterThan"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <constraints/>
               <categoryLinks/>
             </entryLink>
@@ -15125,7 +15512,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
     </selectionEntry>
     <selectionEntry id="1b44-8c50-86ae-9a67" name="Terrax Pattern Termite Assault Drill" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="177e-631e-36f5-d4dd" name="Terrax Pattern Termite Assault Drill" hidden="false" profileTypeId="56656869636c6523232344415441232323" profileTypeName="Vehicle">
+        <profile id="177e-631e-36f5-d4dd" name="Terrax Pattern Termite Assault Drill" book="FW Webpage Download" hidden="false" profileTypeId="56656869636c6523232344415441232323" profileTypeName="Vehicle">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15139,7 +15526,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
             <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Tank, Transport"/>
           </characteristics>
         </profile>
-        <profile id="ec21-e085-c763-e48a" name="Terrax Pattern Termite Assault Drill (Transport)" hidden="false" profileTypeId="307d-047f-ca13-706b" profileTypeName="Transport">
+        <profile id="ec21-e085-c763-e48a" name="Terrax Pattern Termite Assault Drill (Transport)" book="" hidden="false" profileTypeId="307d-047f-ca13-706b" profileTypeName="Transport">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15164,50 +15551,32 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Instead of the usual rules for Deep Striking, when a Subterranean Assault vehicle enters play via Deep Strike, place a Large Blast (5&quot;)
-marker on the table and scatter this to determine the final position of its arrival as per the Deep Strike special rule.
+          <description>Instead of the usual rules for Deep Striking, when a Subterranean Assault vehicle enters play via Deep Strike, place a Large Blast (5&quot;) marker on the table and scatter this to determine the final position of its arrival as per the Deep Strike special rule.
 
-Should this marker scatter on top of impassable terrain, a building, ruin, fortification, vehicle or any unit engaged in combat, reduce
-the scatter distance by the minimum required to avoid the obstacle. If the marker representing the arrival of the Termite was
-displaced in this way by a vehicle or fortification, the closest vehicle or fortification to the marker immediately suffers a Str 10 AP- hit
-– vehicles are hit on their Side armour. If the arrival of the Termite was instead displaced by any units engaged in close combat, all
-units in that combat suffer D6 Str 6 AP 4 hits. After the final position of the marker is determined, if the marker covers or touches any
-enemy or friendly unit, then that unit also suffers D6 Str 6 AP 4 hits.
+Should this marker scatter on top of impassable terrain, a building, ruin, fortification, vehicle or any unit engaged in combat, reduce the scatter distance by the minimum required to avoid the obstacle. If the marker representing the arrival of the Termite was displaced in this way by a vehicle or fortification, the closest vehicle or fortification to the marker immediately suffers a Str 10 AP- hit
+– vehicles are hit on their Side armour. If the arrival of the Termite was instead displaced by any units engaged in close combat, all units in that combat suffer D6 Str 6 AP 4 hits. After the final position of the marker is determined, if the marker covers or touches any enemy or friendly unit, then that unit also suffers D6 Str 6 AP 4 hits.
 
-After all damage is resolved, the Subterranean Assault vehicle may be placed in any orientation so long as the centre of the Large Blast
-(5&quot;) marker is underneath part of the vehicle’s hull and it remains 1&quot; away from any fortification, vehicle or unit engaged in combat.
-The area under the Large Blast (5&quot;) marker is now difficult terrain for the rest of the game. Players may, should they wish to, instead
-represent this area with a piece of crater terrain.
-
-Should a Subterranean Assault vehicle be placed on top of any unit which does not pose an obstacle to its arrival as described above,
-the Death from Below special rule allows it to be placed as though the unit was not there. If some models in the unit would end up
-underneath the Subterranean Assault vehicle when it reaches its final position (it makes no difference whether the unit is Falling
-Back or not), these models must be moved by the controlling player out of the way by the shortest distance, leaving at least 1&quot; between
-them and the Subterranean Assault vehicle (and indeed any other unit) whilst maintaining unit coherency and staying on the
-tabletop. Any models that cannot manage this are crushed and removed from play as casualties with no saves allowed.</description>
+After all damage is resolved, the Subterranean Assault vehicle may be placed in any orientation so long as the centre of the Large Blast (5&quot;) marker is underneath part of the vehicle’s hull and it remains 1&quot; away from any fortification, vehicle or unit engaged in combat. The area under the Large Blast (5&quot;) marker is now difficult terrain for the rest of the game. Players may, should they wish to, instead
+represent this area with a piece of crater terrain. 
+Should a Subterranean Assault vehicle be placed on top of any unit which does not pose an obstacle to its arrival as described above, the Death from Below special rule allows it to be placed as though the unit was not there. If some models in the unit would end up underneath the Subterranean Assault vehicle when it reaches its final position (it makes no difference whether the unit is Falling
+Back or not), these models must be moved by the controlling player out of the way by the shortest distance, leaving at least 1&quot; between them and the Subterranean Assault vehicle (and indeed any other unit) whilst maintaining unit coherency and staying on the tabletop. Any models that cannot manage this are crushed and removed from play as casualties with no saves allowed.</description>
         </rule>
         <rule id="255d-2ce6-727e-364b" name="Melta Cutters" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>A Termite Assault Drill ignores difficult terrain and dangerous terrain.
-In addition, it adds +2 to its Strength when making ramming attacks against fortifications.</description>
+          <description>A Termite Assault Drill ignores difficult terrain and dangerous terrain. In addition, it adds +2 to its Strength when making ramming attacks against fortifications.</description>
         </rule>
         <rule id="6b3b-8961-6c32-a5d4" name="Subterranean Assault" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Should the Termite Assault Drill, and any unit it transports, enter play using the Deep Strike special rule, they count as being a
-Subterranean Assault vehicle for the wider use of the Subterranean Assault rule for your army. At the beginning of the controlling
-player’s first turn, they must choose half of their Subterranean Assault vehicles held in reserve for the purpose of Deep Striking
-(rounding up) to make a Subterranean Assault. These units arrive on the controlling player’s first player turn. The arrival of any
+          <description>Should the Termite Assault Drill, and any unit it transports, enter play using the Deep Strike special rule, they count as being a Subterranean Assault vehicle for the wider use of the Subterranean Assault rule for your army. At the beginning of the controlling player’s first turn, they must choose half of their Subterranean Assault vehicles held in reserve for the purpose of Deep Striking (rounding up) to make a Subterranean Assault. These units arrive on the controlling player’s first player turn. The arrival of any
 remaining Subterranean Assault vehicles in the player’s force is rolled for as usual for the mission.
 
-This rule, while similar in function to the Drop Pod Assault special rule, does not interact with it for the purposes of calculating how
-many units may arrive on the table by Deep Strike. Armies may consist of units with both the Drop Pod Assault and Subterranean
-Assault rules unless otherwise noted.</description>
+This rule, while similar in function to the Drop Pod Assault special rule, does not interact with it for the purposes of calculating how many units may arrive on the table by Deep Strike. Armies may consist of units with both the Drop Pod Assault and Subterranean Assault rules unless otherwise noted.</description>
         </rule>
         <rule id="2138-c152-f007-3485" name="Terrax Pattern Termite Assault Drill" hidden="false">
           <profiles/>
@@ -15216,7 +15585,7 @@ Assault rules unless otherwise noted.</description>
           <modifiers/>
           <description>* May not carry models with the Bulky, Very Bulky or Extremely Bulky special rules
 
-** In practice you may choose to open and embar/disembark from a single hatch on either side of the hull.</description>
+** In practice you may choose to open and embark/disembark from a single hatch on either side of the hull.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -15323,14 +15692,14 @@ Assault rules unless otherwise noted.</description>
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="85.0"/>
+        <cost name="pts" costTypeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ad5d-6b1a-2708-3616" name="Extra Armour" page="0" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="3b37-c847-b26d-8c55" name="New InfoLink" hidden="false" targetId="5283-9b50-3dcd-78e4" type="rule">
+        <infoLink id="3b37-c847-b26d-8c55" name="Extra Armour" hidden="false" targetId="5283-9b50-3dcd-78e4" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15353,13 +15722,7 @@ Assault rules unless otherwise noted.</description>
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="b6f0-922d-e503-bf7d" name="Armoured Ceramite" hidden="false" targetId="874d-45cf-6007-a1de" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="6c48-1c46-bcee-b44d" name="Armoured Ceramite" hidden="false" targetId="3138-683d-a9a0-570d" type="rule">
+        <infoLink id="7b41-4a6c-49ad-f026" name="Armoured Ceramite" hidden="false" targetId="874d-45cf-6007-a1de" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -15367,7 +15730,9 @@ Assault rules unless otherwise noted.</description>
         </infoLink>
       </infoLinks>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8c16-7612-a0f7-832d" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -15503,6 +15868,240 @@ Assault rules unless otherwise noted.</description>
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8bbc-b165-3c51-623d" name="Carnodon Strike Squadron" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="dd1b-a652-3da1-5f78" name="Carnodon Strike Squadron" hidden="false" profileTypeId="56656869636c6523232344415441232323" profileTypeName="Vehicle">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="3"/>
+            <characteristic name="Front" characteristicTypeId="46726f6e7423232344415441232323" value="12"/>
+            <characteristic name="Side" characteristicTypeId="5369646523232344415441232323" value="11"/>
+            <characteristic name="Rear" characteristicTypeId="5265617223232344415441232323" value="10"/>
+            <characteristic name="HP" characteristicTypeId="485023232344415441232323" value="3"/>
+            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Vehicle (Tank)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="680b-ee72-feeb-5acd" name="Carnodon Tank" hidden="false" collective="false" type="model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a625-3b6e-4476-b60d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97d9-de32-fa28-f3d7" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="b892-5200-7994-59c8" name="Heavy Stubber" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="e5b1-406b-7ac1-2a43" name="Heavy Stubber" hidden="false" targetId="e433-d3c0-5fce-65bd" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecf1-edfe-0ebd-5065" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0617-9d50-f22f-0f74" name="Smoke Launchers" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="3c4d-62fd-e764-b9c2" name="Smoke Launchers" hidden="false" targetId="6875-ee73-2a85-6a97" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84a0-529a-e1fb-fd08" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9690-8776-e4d1-c066" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="463d-8232-2e19-8246" name="Searchlight" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="4d6e-8dd3-08b0-c138" name="Searchlight" hidden="false" targetId="9bb4-3833-5343-0dd9" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3411-94f0-8154-5bb1" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4532-5be0-7c07-8467" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ddad-ab44-023f-c306" name="Twin-Linked Autocannon" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="c0ad-5616-a220-f523" name="Twin-linked" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="ee0f-4239-703e-5e79" name="Autocannon" hidden="false" targetId="d55f-eed0-800f-5789" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67b7-43d1-0e6e-7188" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4839-9e80-a40c-5846" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="cb85-bf24-64db-3dfb" name="May exchange both of its sponson-mounted heavy flamers for" hidden="false" collective="false" defaultSelectionEntryId="c42a-c4cd-ed13-9880">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eba6-b144-939d-4fe9" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae03-e66b-fbb1-1433" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="46f9-1db7-eac1-08b2" name="Two Autocannons" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="8307-7532-c7a2-7e06" name="Autocannon" hidden="false" targetId="d55f-eed0-800f-5789" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f372-3cfb-b338-20b5" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="c3e8-a070-abb4-30d1" name="Two Heavy Bolters" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="e190-bafa-f250-3094" name="Heavy Bolter" hidden="false" targetId="271e-6286-86cc-06dd" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c220-2c9c-c88a-5f49" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="c42a-c4cd-ed13-9880" name="Two Heavy Flamers" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="ebde-34d7-4764-dd82" name="Heavy Flamer" hidden="false" targetId="c554-a05e-607c-5831" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9c2-52e9-18ec-bf0b" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="60.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
