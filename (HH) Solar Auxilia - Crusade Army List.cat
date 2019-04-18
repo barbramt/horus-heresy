@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7f243fc5-c5fd-8b2c-7b07-907bf684bb72" name="Solar Auxilia" book="Crusade Imperialis" revision="51" battleScribeVersion="2.01" authorName="https://github.com/BSData/horus-heresy/graphs/contributors" authorContact="Gitter: @BSData/horus-heresy" authorUrl="http://battlescribedata.appspot.com/#/repo/horus-heresy" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="28" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7f243fc5-c5fd-8b2c-7b07-907bf684bb72" name="Solar Auxilia" book="Crusade Imperialis" revision="58" battleScribeVersion="2.01" authorName="https://github.com/BSData/horus-heresy/graphs/contributors" authorContact="Gitter: @BSData/horus-heresy" authorUrl="http://battlescribedata.appspot.com/#/repo/horus-heresy" gameSystemId="ca571888-56a9-c58e-ddaf-54f4713538bc" gameSystemRevision="28" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -566,6 +566,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc4f-0412-3089-aee0" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="7d84-a045-de40-2502" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="73fa-8fe1-2ef6-64fe" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="4e06-f510-5de0-195b" name="Armies of Dark Compliance" hidden="false">
@@ -660,6 +669,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <infoLinks/>
           <modifiers/>
           <constraints/>
+        </categoryLink>
+        <categoryLink id="a921-f095-798b-4873" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="230a-d1c8-7dfe-afe8" type="max"/>
+          </constraints>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -835,6 +853,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="ca45-6cd6-9666-a9ed" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="64c4-d400-619b-c7a1" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="657a-bc81-4ae3-8a5b" name="Allied Detachment" hidden="false">
@@ -917,6 +944,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="c2f3-07e9-d4d6-e540" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ecee-5560-f5c7-1ab0" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="089f-7e79-bde1-90dd" name=" Zone Mortalis - Attacker" hidden="false">
@@ -981,6 +1017,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="3f1a-694f-9587-acd5" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="27dc-a68b-a6eb-9db9" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="7b39-af6b-52e1-b4d7" name=" Zone Mortalis - Defender" hidden="false">
@@ -1042,6 +1087,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <infoLinks/>
           <modifiers/>
           <constraints/>
+        </categoryLink>
+        <categoryLink id="6d9d-9eb9-fa2c-540f" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3636-8d61-0d04-4892" type="max"/>
+          </constraints>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -1106,6 +1160,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <infoLinks/>
           <modifiers/>
           <constraints/>
+        </categoryLink>
+        <categoryLink id="6425-2443-068b-a4cc" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f9b8-67de-8024-06e0" type="max"/>
+          </constraints>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -1181,6 +1244,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <infoLinks/>
           <modifiers/>
           <constraints/>
+        </categoryLink>
+        <categoryLink id="c75c-7a81-490e-ad19" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7ba1-6a8e-8ac1-abd6" type="max"/>
+          </constraints>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -1266,6 +1338,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="32b7-2c72-8e6a-7138" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8d55-753d-82b3-0f35" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="f715-cdf4-0c5e-213a" name="Optional - Leviathan" hidden="false">
@@ -1292,6 +1373,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <infoLinks/>
           <modifiers/>
           <constraints/>
+        </categoryLink>
+        <categoryLink id="78a6-d4f6-b236-90a1" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="851c-6591-5ecb-4210" type="max"/>
+          </constraints>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -1357,6 +1447,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20a1-90d6-fb1d-2730" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="68b6-c2b3-6501-d55d" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5c41-65ab-9fa0-d6e7" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -1433,6 +1532,15 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8127-4547-e39a-62f2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a49-4460-0e7f-abf5" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="0b3b-7ab6-22ea-e7b7" name="Use Playtest Rules" hidden="false" targetId="fdf4-0683-3e84-5a4b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e71d-c05f-10eb-e930" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -1606,7 +1714,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="7b0f-dc90-b9a9-ccb1" name="New EntryLink" hidden="false" targetId="bbd0-e64e-b0a8-fa02" type="selectionEntry">
+    <entryLink id="7b0f-dc90-b9a9-ccb1" name="Auxilia Malcador Heavy Tank" hidden="false" targetId="bbd0-e64e-b0a8-fa02" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1957,7 +2065,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="b9de-06ad-9915-eaed-456c6974657323232344415441232323" hidden="false" targetId="456c6974657323232344415441232323" primary="true">
+        <categoryLink id="f1cb-6941-2b56-b808" name="HQ" hidden="false" targetId="485123232344415441232323" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2124,38 +2232,6 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4c26-7ed0-c45b-3e34" name="New EntryLink" hidden="false" targetId="b973-7d7d-754e-b022" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="4c26-7ed0-c45b-3e34-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="fc59-b4fe-394f-745e" name="New EntryLink" hidden="false" targetId="053a-fd01-be65-238e" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="fc59-b4fe-394f-745e-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="5a5c-01af-11c5-5803" name="New EntryLink" hidden="false" targetId="fb92-d215-2011-f911" type="selectionEntry">
       <profiles/>
       <rules/>
@@ -2228,38 +2304,6 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="83e2-e002-37c4-adb0" name="New EntryLink" hidden="false" targetId="0d50-24ac-a53e-5db7" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="83e2-e002-37c4-adb0-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="e7c9-e42a-ccc8-da5e" name="New EntryLink" hidden="false" targetId="bbd4-5f41-35d1-6c5f" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="e7c9-e42a-ccc8-da5e-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="157f-bd76-fb21-b9e9" name="New EntryLink" hidden="false" targetId="df05-8179-624e-f8b2" type="selectionEntry">
       <profiles/>
       <rules/>
@@ -2284,38 +2328,6 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
       <constraints/>
       <categoryLinks>
         <categoryLink id="d4c0-2f64-4c98-bc85-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="c04a-bf17-2f31-2ed2" name="New EntryLink" hidden="false" targetId="796a-21c2-7281-17a8" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="c04a-bf17-2f31-2ed2-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="73e2-f448-7018-b652" name="New EntryLink" hidden="false" targetId="ed7e-757a-4ced-adff" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="73e2-f448-7018-b652-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2372,54 +2384,6 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5c79-2091-fc68-885a" name="New EntryLink" hidden="false" targetId="0fe6-096b-23ae-1134" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="5c79-2091-fc68-885a-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="4024-e8ef-3fe1-38da" name="New EntryLink" hidden="false" targetId="1a59-dd0f-a7f2-32be" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="4024-e8ef-3fe1-38da-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="cc96-420c-ce3c-78cd" name="New EntryLink" hidden="false" targetId="8300-7ced-aafd-2a27" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="cc96-420c-ce3c-78cd-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="075d-aaf8-c6cd-c6e9" name="New EntryLink" hidden="false" targetId="c05d-2231-2481-4037" type="selectionEntry">
       <profiles/>
       <rules/>
@@ -2468,7 +2432,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="f297-91c5-8c5b-2b5d" name="New EntryLink" hidden="false" targetId="a505-05af-bd44-56b6" type="selectionEntry">
+    <entryLink id="f297-91c5-8c5b-2b5d" name="Aegis Defense Line" hidden="false" targetId="a505-05af-bd44-56b6" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2476,22 +2440,6 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
       <constraints/>
       <categoryLinks>
         <categoryLink id="f297-91c5-8c5b-2b5d-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="e207-7a6f-6dc1-78c8" name="New EntryLink" hidden="false" targetId="06e2-2420-ffc8-13b8" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="e207-7a6f-6dc1-78c8-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2516,22 +2464,6 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4bf3-f4cb-20bc-6594" name="New EntryLink" hidden="false" targetId="33f8-e6da-89a3-01d5" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="4bf3-f4cb-20bc-6594-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="ec84-c89c-307c-0bdf" name="New EntryLink" hidden="false" targetId="e0b3-77ca-af76-bd8b" type="selectionEntry">
       <profiles/>
       <rules/>
@@ -2540,38 +2472,6 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
       <constraints/>
       <categoryLinks>
         <categoryLink id="ec84-c89c-307c-0bdf-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="f8a8-1aab-ef95-a82b" name="New EntryLink" hidden="false" targetId="9f5b-eccc-689a-2948" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="f8a8-1aab-ef95-a82b-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="5130-cd97-1b60-97d6" name="New EntryLink" hidden="false" targetId="5cdd-edbb-07c3-0ba5" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="5130-cd97-1b60-97d6-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2636,6 +2536,66 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
       <constraints/>
       <categoryLinks>
         <categoryLink id="e768-88df-de9b-1a26" name="New CategoryLink" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c5ba-650f-d769-68a9" name="Saturnyne Pattern Carnodon Strike Squadron" hidden="false" targetId="64a9-ab91-8d63-467a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2e7e-d3f4-c8c5-08ca" name="New CategoryLink" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1c5b-1f7b-bde9-a6f8" name="Tank" hidden="false" targetId="e59c-462e-9d9c-66dd" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d2be-b598-393b-9595" name="Vehicle" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8cab-4350-9a15-cf68" name="Legio Titanicus Warbringer Nemesis Titan" hidden="false" targetId="ecb3-83b9-4ba7-47a9" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="bb95-9c79-da05-4308" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4000-40ea-10a8-3ffb" name="New CategoryLink" hidden="false" targetId="264d-166e-36c0-77b7" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d2e2-f9f6-41ab-b4ad" name="New CategoryLink" hidden="false" targetId="53bd-99e7-aba0-e79f" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3850,6 +3810,34 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
+        <selectionEntryGroup id="4dc7-88b6-1a14-d863" name="Psyarkana" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df79-5c62-d72c-0f53" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="b0e7-0d70-9e27-679e" name="Armatus Necrotechnica" hidden="false" targetId="e78c-d1a1-c20f-dae8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
@@ -4258,6 +4246,34 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
+                <selectionEntryGroup id="154f-0f60-61ba-f249" name="Psyarkana" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61a9-bfe3-060a-de31" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="4ad9-f16e-6704-ae64" name="Armatus Necrotechnica" hidden="false" targetId="e78c-d1a1-c20f-dae8" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks/>
               <costs>
@@ -4450,6 +4466,34 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
                       <rules/>
                       <infoLinks/>
                       <modifiers/>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="33b8-455d-127b-3930" name="Psyarkana" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4818-11a1-d0e9-af95" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="f638-c12d-9d2b-50c3" name="Armatus Necrotechnica" hidden="false" targetId="e78c-d1a1-c20f-dae8" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
                       <constraints/>
                       <categoryLinks/>
                     </entryLink>
@@ -4689,6 +4733,34 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
                   </selectionEntries>
                   <selectionEntryGroups/>
                   <entryLinks/>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="3d2f-b33e-f230-e7ae" name="Psyarkana" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d90c-56b8-6a62-5f01" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="9bc2-00e5-649f-0777" name="Armatus Necrotechnica" hidden="false" targetId="e78c-d1a1-c20f-dae8" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks/>
@@ -5119,7 +5191,36 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <selectionEntryGroups/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="d85a-2c4b-566a-e9e2" name="Psyarkana" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68d8-1ff2-7208-6879" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="7c54-7824-26d0-26a1" name="Armatus Necrotechnica" hidden="false" targetId="e78c-d1a1-c20f-dae8" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <entryLinks>
                 <entryLink id="09a4-8242-3f56-6015" hidden="false" targetId="728b0618-438e-2698-33e7-2230ecd7bb2e" type="selectionEntryGroup">
                   <profiles/>
@@ -5230,7 +5331,36 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <selectionEntryGroups/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="dbcc-d7cf-3a07-e98f" name="Psyarkana" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5f8-664f-317f-6fb7" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="7f85-5d16-814b-ac47" name="Armatus Necrotechnica" hidden="false" targetId="e78c-d1a1-c20f-dae8" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <entryLinks>
                 <entryLink id="283b-d408-ee88-cc82" name="May exchange heavy bolter for:" hidden="false" targetId="728b0618-438e-2698-33e7-2230ecd7bb2e" type="selectionEntryGroup">
                   <profiles/>
@@ -5328,7 +5458,36 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <selectionEntryGroups/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="3b7a-3261-b88e-c25e" name="Psyarkana" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb60-2f5d-65e1-c6c5" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="f91f-0c1d-f646-734c" name="Armatus Necrotechnica" hidden="false" targetId="e78c-d1a1-c20f-dae8" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <entryLinks>
                 <entryLink id="cc6a-75ba-eb07-37b1" hidden="false" targetId="728b0618-438e-2698-33e7-2230ecd7bb2e" type="selectionEntryGroup">
                   <profiles/>
@@ -5479,7 +5638,36 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <selectionEntryGroups/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="a6fb-4a7c-fb7a-e3c9" name="Psyarkana" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1528-95a4-8d1b-73ee" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="6772-2d70-cad6-c71a" name="Armatus Necrotechnica" hidden="false" targetId="e78c-d1a1-c20f-dae8" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <entryLinks>
                 <entryLink id="5425-db45-039b-4089" hidden="false" targetId="728b0618-438e-2698-33e7-2230ecd7bb2e" type="selectionEntryGroup">
                   <profiles/>
@@ -5595,7 +5783,36 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <selectionEntryGroups/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="572b-88ed-4029-0109" name="Psyarkana" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8442-48c6-975e-d945" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="37c7-2864-2182-81c2" name="Armatus Necrotechnica" hidden="false" targetId="e78c-d1a1-c20f-dae8" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <entryLinks>
                 <entryLink id="e7c1-1569-b36c-28b2" name="May exchange heavy bolter for:" hidden="false" targetId="728b0618-438e-2698-33e7-2230ecd7bb2e" type="selectionEntryGroup">
                   <profiles/>
@@ -5699,7 +5916,36 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <selectionEntryGroups/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="9e61-e91b-673f-2c3e" name="Psyarkana" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dce-7706-87a1-95b5" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="1e7b-a536-dd51-c52a" name="Armatus Necrotechnica" hidden="false" targetId="e78c-d1a1-c20f-dae8" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <entryLinks>
                 <entryLink id="3a4e-fb57-1764-1c8f" hidden="false" targetId="728b0618-438e-2698-33e7-2230ecd7bb2e" type="selectionEntryGroup">
                   <profiles/>
@@ -5810,7 +6056,36 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <selectionEntryGroups/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="b019-b1c2-5567-632b" name="Psyarkana" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc34-548f-a2b2-5a09" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks>
+                    <entryLink id="98f3-ee92-9c95-6728" name="Armatus Necrotechnica" hidden="false" targetId="e78c-d1a1-c20f-dae8" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="false">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <entryLinks>
                 <entryLink id="bbf8-b519-b385-f40c" hidden="false" targetId="728b0618-438e-2698-33e7-2230ecd7bb2e" type="selectionEntryGroup">
                   <profiles/>
@@ -5856,7 +6131,7 @@ Note this precludes some Rites of War and Army Lists from Centurion mode.</descr
             <characteristic name="Side" characteristicTypeId="5369646523232344415441232323" value="13"/>
             <characteristic name="Rear" characteristicTypeId="5265617223232344415441232323" value="12"/>
             <characteristic name="HP" characteristicTypeId="485023232344415441232323" value="6"/>
-            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Super-heavy, Fast"/>
+            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Vehicle (Tank), Fast"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6202,6 +6477,34 @@ but the tank loses the Fast special rule.</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="4a6c-9325-1be5-df97" name="Psyarkana" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2800-fda5-1657-4c59" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="45de-938e-d33f-bd3c" name="Armatus Necrotechnica" hidden="false" targetId="e78c-d1a1-c20f-dae8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
@@ -6221,7 +6524,7 @@ but the tank loses the Fast special rule.</description>
             <characteristic name="Side" characteristicTypeId="5369646523232344415441232323" value="12"/>
             <characteristic name="Rear" characteristicTypeId="5265617223232344415441232323" value="11"/>
             <characteristic name="HP" characteristicTypeId="485023232344415441232323" value="6"/>
-            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Super-heavy"/>
+            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Vehicle (Tank)"/>
           </characteristics>
         </profile>
         <profile id="e57b-c7c2-2e96-49d2" name="Inferno Gun" book="HH4: Conquest" page="281" hidden="false" profileTypeId="576561706f6e23232344415441232323">
@@ -6428,6 +6731,34 @@ but the tank loses the Fast special rule.</description>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e5da-56d1-5e79-1d77" name="Psyarkana" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6496-9270-458a-c5a5" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="a9af-5002-8775-0274" name="Armatus Necrotechnica" hidden="false" targetId="e78c-d1a1-c20f-dae8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
@@ -7166,13 +7497,14 @@ but the tank loses the Fast special rule.</description>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
-            <selectionEntryGroup id="beb7-7f7d-5890-8c30" name="Exchange Quad Multi-laser for:" hidden="false" collective="false">
+            <selectionEntryGroup id="beb7-7f7d-5890-8c30" name="Exchange Quad Multi-laser for:" hidden="false" collective="false" defaultSelectionEntryId="eb2b-4f05-e829-0430">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0ea6-45e8-997a-e8c8" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d92-7e2e-3b34-79fd" type="min"/>
               </constraints>
               <categoryLinks/>
               <selectionEntries>
@@ -7298,6 +7630,27 @@ but the tank loses the Fast special rule.</description>
                   <costs>
                     <cost name="pts" costTypeId="points" value="35.0"/>
                   </costs>
+                </selectionEntry>
+                <selectionEntry id="eb2b-4f05-e829-0430" name="Multi-Laser" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="629b-5b79-4c6a-f740" name="Multi-laser" hidden="false" targetId="92be-1bfc-f355-f214" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a41d-3123-be90-81f3" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs/>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
@@ -9037,7 +9390,7 @@ Precision Shots</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="5fe8-9898-ff4f-cfe5" hidden="false" targetId="80c70524-9908-04af-634b-d216772445fe" type="rule">
+        <infoLink id="5fe8-9898-ff4f-cfe5" name="Disciplined Command" hidden="false" targetId="80c70524-9908-04af-634b-d216772445fe" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9297,19 +9650,19 @@ Precision Shots</description>
             <characteristic name="Side" characteristicTypeId="5369646523232344415441232323" value="12"/>
             <characteristic name="Rear" characteristicTypeId="5265617223232344415441232323" value="11"/>
             <characteristic name="HP" characteristicTypeId="485023232344415441232323" value="6"/>
-            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Super-heavy"/>
+            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Vehicle (Tank)"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="23c3-2410-18f8-1f11" hidden="false" targetId="11bec7a8-6060-53c9-572c-0df68bf9fa78" type="rule">
+        <infoLink id="23c3-2410-18f8-1f11" name="Explorer Adaptation" hidden="false" targetId="11bec7a8-6060-53c9-572c-0df68bf9fa78" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="caac-f83a-40a8-0e38" name="New InfoLink" hidden="false" targetId="1b17-c243-6518-4f8a" type="rule">
+        <infoLink id="caac-f83a-40a8-0e38" name="Dangerous Reactor Core" hidden="false" targetId="1b17-c243-6518-4f8a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9456,6 +9809,34 @@ Precision Shots</description>
               <rules/>
               <infoLinks/>
               <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8674-786e-5988-be0c" name="Psyarkana" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="722c-bfee-c43a-e885" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="10c9-0f5e-96e8-3d2d" name="Armatus Necrotechnica" hidden="false" targetId="e78c-d1a1-c20f-dae8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
               <categoryLinks/>
             </entryLink>
@@ -10016,7 +10397,14 @@ Precision Shots</description>
             <selectionEntry id="6157-8b44-9d9b-8568" name="Flamer" page="0" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="18b0-f3f0-186a-0699" name="Flamer" hidden="false" targetId="3a71-7de1-1948-3655" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f975-7250-74b3-d9cc" type="max"/>
@@ -10078,7 +10466,14 @@ Precision Shots</description>
             <selectionEntry id="02b2-369b-f679-fe05" name="Multi-melta" page="0" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="34b7-9bd3-95dd-146b" name="Multi-Melta" hidden="false" targetId="4fc7-8b16-afe4-dad3" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7d87-99b5-a805-45e3" type="max"/>
@@ -11064,6 +11459,13 @@ Precision Shots</description>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="b362-7a87-7cb5-b4d6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9aa-a5d8-a691-1b2a" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
               </modifiers>
               <constraints/>
               <categoryLinks/>
@@ -11093,6 +11495,13 @@ Precision Shots</description>
                 <modifier type="set" field="points" value="10">
                   <repeats/>
                   <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="b362-7a87-7cb5-b4d6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a9aa-a5d8-a691-1b2a" type="equalTo"/>
+                  </conditions>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
@@ -11465,6 +11874,34 @@ Precision Shots</description>
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
+                <entryLink id="9d96-15b9-0a40-877a" name="Divining Blades" hidden="false" targetId="6aa6-9f16-9e80-5630" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="b362-7a87-7cb5-b4d6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a5d6-115c-ca50-b42e" type="equalTo"/>
+                            <condition field="selections" scope="b362-7a87-7cb5-b4d6" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9284-ff86-6274-3efb" type="equalTo"/>
+                            <condition field="selections" scope="b362-7a87-7cb5-b4d6" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6036-8463-dc91-9773" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" field="points" value="55">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="75a4-d4a8-6758-b52d" name="Exchange close combat weapon for:" hidden="false" collective="false" defaultSelectionEntryId="dfe9-4c8b-d3fc-bf67">
@@ -11605,10 +12042,160 @@ Precision Shots</description>
                   </constraints>
                   <categoryLinks/>
                 </entryLink>
+                <entryLink id="6036-8463-dc91-9773" name="Divining Blades" hidden="false" targetId="6aa6-9f16-9e80-5630" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="b362-7a87-7cb5-b4d6" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9284-ff86-6274-3efb" type="equalTo"/>
+                            <condition field="selections" scope="b362-7a87-7cb5-b4d6" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9d96-15b9-0a40-877a" type="equalTo"/>
+                            <condition field="selections" scope="b362-7a87-7cb5-b4d6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a5d6-115c-ca50-b42e" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" field="points" value="55">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="9284-ff86-6274-3efb" name="Psyarkana" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="286e-dd2c-e94a-0324" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="b362-7a87-7cb5-b4d6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9d96-15b9-0a40-877a" type="equalTo"/>
+                    <condition field="selections" scope="b362-7a87-7cb5-b4d6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6036-8463-dc91-9773" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="b362-7a87-7cb5-b4d6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6036-8463-dc91-9773" type="equalTo"/>
+                    <condition field="selections" scope="b362-7a87-7cb5-b4d6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9d96-15b9-0a40-877a" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="286e-dd2c-e94a-0324" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="5a0c-c77f-b3e8-cae0" name="Icon of the Blazing Sun" hidden="false" targetId="b2fe-de24-0c45-9b4d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ca2a-4940-90bf-1a80" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="a9aa-a5d8-a691-1b2a" name="Psi-resonant Pentacles" hidden="false" targetId="199f-821c-598a-c660" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="10">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="2af2-4b0b-8e4b-9487" name="Terminal Lucidity Injectors" hidden="false" targetId="66e2-6760-fb6a-edc3" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="ae17-7247-e72e-d2ac" name="The Liber Magra Veneficarum" hidden="false" targetId="49dd-55d6-fa07-8cb5" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9f00-9895-b511-2c81" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="bd1e-b63c-e79f-59f6" name="The Ever-changing Axiom" hidden="false" targetId="f162-9d1e-ca8d-d5f6" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="b362-7a87-7cb5-b4d6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a5d6-115c-ca50-b42e" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
@@ -11652,7 +12239,7 @@ Precision Shots</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>The first time any unit, other than Dedicated Transports, Lords of War, or Unique units, in the same detachment as Ireton are destroyed, roll a D6.  On a 5+, an identical unit is placed in ongoing reserves.</description>
+          <description>Ireton MaSade has the might and industrial power of an entire stellar domain to call upon to serve his military needs, and the wit to employ such resources effectively on the battlefield. So long as Ireton MaSade is present on the battlefield, the first time any friendly unit (other than a Dedicated Transport, Lords of War choice or Unique unit) in the same detachment as him is destroyed, roll a D6. On a roll of a 5 or 6, a new identical unit is placed in the controlling player’s Ongoing Reserves. This effect may only occur once per game. </description>
         </rule>
         <rule id="705d-2a1b-4603-5366" name="Hatred (Traitor Forces)" hidden="false">
           <profiles/>
@@ -12735,7 +13322,14 @@ Precision Shots</description>
             <selectionEntry id="a068-f929-a09e-929c" name="Heavy Chainblade" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="59a5-033d-4c2a-62dc" name="Heavy Chainblade" hidden="false" targetId="cc4860a0-465c-fb33-3175-119d9ea47519" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers>
                 <modifier type="increment" field="6951-97b5-4875-196e" value="1">
                   <repeats>
@@ -14728,7 +15322,7 @@ Precision Shots</description>
                     <modifier type="set" field="hidden" value="true">
                       <repeats/>
                       <conditions>
-                        <condition field="selections" scope="318c-a42f-a36c-aa30" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d3f3-dcf8-de8f-23e5" type="equalTo"/>
+                        <condition field="selections" scope="318c-a42f-a36c-aa30" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9030-d814-2868-3190" type="equalTo"/>
                       </conditions>
                       <conditionGroups/>
                     </modifier>
@@ -14752,7 +15346,7 @@ Precision Shots</description>
                     <modifier type="set" field="hidden" value="true">
                       <repeats/>
                       <conditions>
-                        <condition field="selections" scope="318c-a42f-a36c-aa30" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dde4-a108-90be-dd77" type="equalTo"/>
+                        <condition field="selections" scope="318c-a42f-a36c-aa30" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a0be-2117-9539-bc50" type="equalTo"/>
                       </conditions>
                       <conditionGroups/>
                     </modifier>
@@ -14881,92 +15475,7 @@ Precision Shots</description>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="ce05-5103-2aee-32b9" name="Veletarii may exchange their Volkite Chargers for:" hidden="false" collective="false" defaultSelectionEntryId="abca-3ec5-31ad-866a">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2be-c0a5-0b65-1ed1" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7896-9008-a570-9586" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries>
-                <selectionEntry id="d3f3-dcf8-de8f-23e5" name="Rotor Cannons" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks>
-                    <infoLink id="2500-4d30-f013-bdc9" name="Rotor Cannon" hidden="false" targetId="871025a3-7729-f97d-378d-804c3571cdf3" type="profile">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="pts" costTypeId="points" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="dde4-a108-90be-dd77" name="Power Axes" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks>
-                    <infoLink id="3ad1-3bb1-e994-f3ca" name="Power Axe" hidden="false" targetId="b3af-1eca-6629-4894" type="profile">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="pts" costTypeId="points" value="45.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="abca-3ec5-31ad-866a" name="Volkite Chargers" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks>
-                    <infoLink id="9c5f-9f41-6aec-2405" name="Volkite Charger" hidden="false" targetId="44d2260d-9431-a6d0-6ba3-de04b559ba5b" type="profile">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                    <infoLink id="2f11-bfc3-9dc5-f46c" name="Deflagrate" hidden="false" targetId="cbcf-5f25-f8ea-7cfd" type="rule">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="pts" costTypeId="points" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups/>
-              <entryLinks/>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
+          <selectionEntryGroups/>
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="points" value="0.0"/>
@@ -15003,6 +15512,90 @@ Precision Shots</description>
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="4523-bc78-92a6-74d7" name="Veletarii may exchange their Volkite Chargers for:" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f14-3c57-3806-37cb" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d259-696e-8f7d-2b72" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="9030-d814-2868-3190" name="Rotor Cannons" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="20d4-e4c8-6169-a724" name="Rotor Cannon" hidden="false" targetId="871025a3-7729-f97d-378d-804c3571cdf3" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a0be-2117-9539-bc50" name="Power Axes" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="2a8b-35ff-fc5c-024f" name="Power Axe" hidden="false" targetId="b3af-1eca-6629-4894" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="45.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d68a-6dac-41ca-7d1d" name="Volkite Chargers" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="fb8e-152e-ad96-0d09" name="Volkite Charger" hidden="false" targetId="44d2260d-9431-a6d0-6ba3-de04b559ba5b" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="68da-fd33-af7b-fedb" name="Deflagrate" hidden="false" targetId="cbcf-5f25-f8ea-7cfd" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -15634,7 +16227,7 @@ Precision Shots</description>
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3879-9d90-7c4a-5905" name="Terrax Pattern Termite Assault Drill" page="https://www.forgeworld.co.uk/resources/PDF/Downloads//Terrax_Termite_Imperialis_Militia.pdf" hidden="false" collective="false" type="unit">
+    <selectionEntry id="3879-9d90-7c4a-5905" name="Terrax Pattern Termite Assault Drill" book="FW Webpage Download" page="https://www.forgeworld.co.uk/resources/PDF/Downloads//Terrax_Termite%20_Solar_Auxilia.pdf" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="2865-d3c2-de9d-4306" name="Terrax Pattern Termite Assault Drill" hidden="false" profileTypeId="56656869636c6523232344415441232323" profileTypeName="Vehicle">
           <profiles/>
@@ -15656,7 +16249,7 @@ Precision Shots</description>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Capacity" characteristicTypeId="8285-4205-b6cd-8473" value="12* • 12 models (Terrax Pattern Termites may not carry models with the Bulky, Very Bulky or Extremely Bulky special rules)."/>
+            <characteristic name="Capacity" characteristicTypeId="8285-4205-b6cd-8473" value="12*"/>
             <characteristic name="Fire Points" characteristicTypeId="b270-a7f9-22b2-3702" value="None"/>
             <characteristic name="Access Points" characteristicTypeId="d17b-0342-b1dc-b8e7" value="Two access hatches**"/>
           </characteristics>
@@ -15675,27 +16268,14 @@ Precision Shots</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Instead of the usual rules for Deep Striking, when a Subterranean Assault vehicle enters play via Deep Strike, place a Large Blast (5&quot;)
-marker on the table and scatter this to determine the final position of its arrival as per the Deep Strike special rule.
+          <description>Instead of the usual rules for Deep Striking, when a Subterranean Assault vehicle enters play via Deep Strike, place a Large Blast (5&quot;) marker on the table and scatter this to determine the final position of its arrival as per the Deep Strike special rule.
 
-Should this marker scatter on top of impassable terrain, a building, ruin, fortification, vehicle or any unit engaged in combat, reduce
-the scatter distance by the minimum required to avoid the obstacle. If the marker representing the arrival of the Termite was
-displaced in this way by a vehicle or fortification, the closest vehicle or fortification to the marker immediately suffers a Str 10 AP- hit
-– vehicles are hit on their Side armour. If the arrival of the Termite was instead displaced by any units engaged in close combat, all
-units in that combat suffer D6 Str 6 AP 4 hits. After the final position of the marker is determined, if the marker covers or touches any
-enemy or friendly unit, then that unit also suffers D6 Str 6 AP 4 hits.
+Should this marker scatter on top of impassable terrain, a building, ruin, fortification, vehicle or any unit engaged in combat, reduce the scatter distance by the minimum required to avoid the obstacle. If the marker representing the arrival of the Termite was displaced in this way by a vehicle or fortification, the closest vehicle or fortification to the marker immediately suffers a Str 10 AP- hit
+– vehicles are hit on their Side armour. If the arrival of the Termite was instead displaced by any units engaged in close combat, all units in that combat suffer D6 Str 6 AP 4 hits. After the final position of the marker is determined, if the marker covers or touches any enemy or friendly unit, then that unit also suffers D6 Str 6 AP 4 hits.
 
-After all damage is resolved, the Subterranean Assault vehicle may be placed in any orientation so long as the centre of the Large Blast
-(5&quot;) marker is underneath part of the vehicle’s hull and it remains 1&quot; away from any fortification, vehicle or unit engaged in combat.
-The area under the Large Blast (5&quot;) marker is now difficult terrain for the rest of the game. Players may, should they wish to, instead
-represent this area with a piece of crater terrain.
+After all damage is resolved, the Subterranean Assault vehicle may be placed in any orientation so long as the centre of the Large Blast (5&quot;) marker is underneath part of the vehicle’s hull and it remains 1&quot; away from any fortification, vehicle or unit engaged in combat. The area under the Large Blast (5&quot;) marker is now difficult terrain for the rest of the game. Players may, should they wish to, instead represent this area with a piece of crater terrain.
 
-Should a Subterranean Assault vehicle be placed on top of any unit which does not pose an obstacle to its arrival as described above,
-the Death from Below special rule allows it to be placed as though the unit was not there. If some models in the unit would end up
-underneath the Subterranean Assault vehicle when it reaches its final position (it makes no difference whether the unit is Falling
-Back or not), these models must be moved by the controlling player out of the way by the shortest distance, leaving at least 1&quot; between
-them and the Subterranean Assault vehicle (and indeed any other unit) whilst maintaining unit coherency and staying on the
-tabletop. Any models that cannot manage this are crushed and removed from play as casualties with no saves allowed.</description>
+Should a Subterranean Assault vehicle be placed on top of any unit which does not pose an obstacle to its arrival as described above, the Death from Below special rule allows it to be placed as though the unit was not there. If some models in the unit would end up underneath the Subterranean Assault vehicle when it reaches its final position (it makes no difference whether the unit is Falling Back or not), these models must be moved by the controlling player out of the way by the shortest distance, leaving at least 1&quot; between them and the Subterranean Assault vehicle (and indeed any other unit) whilst maintaining unit coherency and staying on the tabletop. Any models that cannot manage this are crushed and removed from play as casualties with no saves allowed.</description>
         </rule>
         <rule id="21c3-a032-c598-2f23" name="Melta Cutters" hidden="false">
           <profiles/>
@@ -15834,6 +16414,34 @@ Assault rules unless otherwise noted.</description>
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ad2-a9c9-1fc3-5bab" type="max"/>
               </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5547-f9e2-5f43-7178" name="Psyarkana" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4521-847c-03f2-3491" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="02a3-d7d2-8386-e19a" name="Armatus Necrotechnica" hidden="false" targetId="e78c-d1a1-c20f-dae8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
               <categoryLinks/>
             </entryLink>
           </entryLinks>
@@ -16000,6 +16608,34 @@ Assault rules unless otherwise noted.</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="c2e3-4e06-4a25-9d28" name="Psyarkana" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bedc-a76d-6831-0cc0" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="3c2a-913d-a806-75bc" name="Armatus Necrotechnica" hidden="false" targetId="e78c-d1a1-c20f-dae8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="6cce-2691-fb97-d344" name="Extra Armour" hidden="false" targetId="37f8-a81d-7f21-ca31" type="selectionEntry">
@@ -16019,6 +16655,551 @@ Assault rules unless otherwise noted.</description>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="64a9-ab91-8d63-467a" name="Saturnyne Pattern Carnodon Strike Squadron" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="17c8-5a67-3589-294d" name="Carnodon Strike Squadron" hidden="false" profileTypeId="56656869636c6523232344415441232323" profileTypeName="Vehicle">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="3"/>
+            <characteristic name="Front" characteristicTypeId="46726f6e7423232344415441232323" value="12"/>
+            <characteristic name="Side" characteristicTypeId="5369646523232344415441232323" value="11"/>
+            <characteristic name="Rear" characteristicTypeId="5265617223232344415441232323" value="10"/>
+            <characteristic name="HP" characteristicTypeId="485023232344415441232323" value="3"/>
+            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Vehicle (Tank)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="4a49-f521-54f8-9e75" name="Carnodon Tank" hidden="false" collective="false" type="model">
+          <profiles/>
+          <rules>
+            <rule id="2321-f605-f4b1-6fc9" name="Explorator Adaption" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Vehicles with this special rule have an invulnerable save of 6+ against any attack with the Blast or Template special rule, and count as Void Hardened in games where this might have an effect. Failed Dangerous Terrain tests by vehicles with this special rule must be re-rolled.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="83b9-8b9a-794c-db1d" name="Smoke Launchers" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="9ce4-ea57-0d0a-dd77" name="Smoke Launchers" hidden="false" targetId="6875-ee73-2a85-6a97" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03aa-1d14-2ce1-6c0d" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="039c-6008-e1ff-63d2" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="50e2-ecce-da87-61e2" name="Searchlight" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="9d5c-50cc-2aae-2ecb" name="Searchlight" hidden="false" targetId="9bb4-3833-5343-0dd9" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f30f-8383-638d-0033" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f797-f81d-7a67-0d21" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6f93-b345-2a7f-0e58" name="Extra Armour" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="2a6e-0480-cc07-2d7d" name="Extra Armour" hidden="false" targetId="5283-9b50-3dcd-78e4" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0442-6595-425f-bbbe" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="e108-04cb-7048-40d9" name="May exchange both of its sponson-mounted multi-lasers for:" hidden="false" collective="false" defaultSelectionEntryId="49ce-5152-e9fa-3fd1">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abe6-4b49-7cbe-ad06" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e80-8724-50cc-9181" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="6bce-a0ca-ba96-5c03" name="Two Autocannons" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="027a-667a-c1bf-89fc" name="Autocannon" hidden="false" targetId="d55f-eed0-800f-5789" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b76-f40c-d8ef-12af" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="7590-f735-d994-c575" name="Two Heavy Bolters" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="f711-98a3-d521-d950" name="Heavy Bolter" hidden="false" targetId="271e-6286-86cc-06dd" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1971-ff74-f670-0f3b" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="7f77-80a3-d505-b7f4" name="Two Heavy Flamers" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="fde0-c7d8-c645-f22e" name="Heavy Flamer" hidden="false" targetId="c554-a05e-607c-5831" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e72-9686-6586-3e0b" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="49ce-5152-e9fa-3fd1" name="Two Multi-Lasers" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="b239-2408-b1db-193e" name="Multi-laser" hidden="false" targetId="9e5daeb2-93d7-cac7-9d23-c85b81e46ea2" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32a8-2678-4ca1-c2a5" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="5eb5-ebaa-482b-5502" name="Two Volkite Calivers" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="3de5-7535-0af9-5f51" name="Volkite Caliver" hidden="false" targetId="626c-d79c-9bb7-3407" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f10b-ee3d-941f-2cb8" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="536b-0a80-d4c4-d494" name="Two Lascannons" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="c9ea-b887-3c90-aef6" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a6d-eacf-0d56-0a81" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="30.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="b505-b743-faa1-f870" name="May exchange its twin-linked multi-laser for:" hidden="false" collective="false" defaultSelectionEntryId="5234-93df-ed9d-1163">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c258-00bf-7709-3b14" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30b2-4dcd-a16d-3639" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="8504-383e-bb1d-df23" name="Twin-Linked Autocannon" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="8d23-c162-2e72-ff7c" name="Twin-linked" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="7e44-261b-3514-0e50" name="Autocannon" hidden="false" targetId="d55f-eed0-800f-5789" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1eb-84b3-5abd-12ad" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="223c-cce6-b394-271c" name="Twin-Linked Lascannon" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="08a9-763b-19b0-94a9" name="Twin-linked" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="32a4-685e-5295-29f9" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc43-70a2-ce4f-be68" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="25.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="5234-93df-ed9d-1163" name="Twin-Linked Multi-Laser" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="5d6a-f1bf-6bf6-cea3" name="Twin-linked" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="32a9-4424-0878-4d91" name="Multi-laser" hidden="false" targetId="9e5daeb2-93d7-cac7-9d23-c85b81e46ea2" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d965-c154-5a7c-a03b" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="2535-5f0b-af69-8b38" name="Volkite Culverin" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="d4d4-a64c-cb50-9c36" name="Volkite Culverin" hidden="false" targetId="13bbdf99-5b72-187e-9a9b-203ff8ab08ae" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8e9-cab9-9c1d-e5ab" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="a82c-1eef-aacd-c0f9" name="May Take:" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="359a-396e-ab04-39a3" name="Multi-Laser" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="ffc9-78eb-9abe-f341" name="Multi-laser" hidden="false" targetId="9e5daeb2-93d7-cac7-9d23-c85b81e46ea2" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e5c-7231-0adc-3b36" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="3605-e654-9076-18e8" name="Heavy Stubber" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="60df-9950-f2be-6a57" name="Heavy Stubber" hidden="false" targetId="0031-0314-5b36-a220" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c7b-9907-2581-0d65" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="65.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d056-3536-054c-e390" name="Psyarkana" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10a0-60de-1a1d-0806" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="e9e7-e5c8-0421-adcc" name="Armatus Necrotechnica" hidden="false" targetId="e78c-d1a1-c20f-dae8" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6aa6-9f16-9e80-5630" name="Divining Blades" hidden="true" collective="false" type="upgrade">
+      <profiles>
+        <profile id="09b2-e3a2-1dc7-c73f" name="Divining Blades" book="HH8" page="306" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="Melee"/>
+            <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="+2"/>
+            <characteristic name="AP" characteristicTypeId="415023232344415441232323" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Melee, Instant Death, Master-Crafted, Psy-Lash, Two Handed."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4067-fb69-0dd0-a9d1" name="Two-Handed" hidden="false" targetId="b11c-0ef4-af6b-d96f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ea8e-2539-745a-3869" name="Master-crafted" hidden="false" targetId="f899-8f9d-fc7e-d855" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="42c8-0850-aea7-7036" name="Psy-Lash" hidden="false" targetId="6f38-4691-2eda-8e1b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c271-aebc-f497-d353" name="Instant Death" hidden="false" targetId="fbf1-6913-ff9f-5a4f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fec7-fd15-fe62-7a75" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ab5-96e4-b1aa-2a81" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -17069,7 +18250,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="4465736372697074696f6e23232344415441232323" value="Provides a 3+ Invulnerable save.  In addition, if any results of a 1 are rolled for the save, the model is removed from play and enters Ongoing reserves.  They must return via Deep Strike, but if any mishap occurs, they are destroyed.  "/>
+        <characteristic name="Description" characteristicTypeId="4465736372697074696f6e23232344415441232323" value="The displacer matrix provides a 3+ invulnerable save. In addition, the first time a 1 is rolled when making an Armour Save for a model equipped with a displacer matrix, the wound is ignored and the model is immediately removed from play and enters Ongoing Reserves. The model must then return to play at the beginning of the controlling player’s next turn using the Deep Strike rules, but if any Deep Strike Mishap occurs, they are destroyed. If the model enters Ongoing Reserves in this manner on the final game turn, it is destroyed for the purposes of missions in which Victory points are scored for destroying units."/>
       </characteristics>
     </profile>
     <profile id="b8b94f6d-4965-1d1f-9d7a-3649649c51b7" name="Grav-wave generator" book="HH4: Conquest" page="250" hidden="false" profileTypeId="57617267656172204974656d23232344415441232323">
